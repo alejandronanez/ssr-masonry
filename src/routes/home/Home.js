@@ -11,15 +11,33 @@ class Home extends React.Component {
           <h1>Masonry Example</h1>
 
           <XMasonry>
-            <XBlock>
+            <XBlock width={2}>
               <div className="card">
                 <h1>Simple Card</h1>
                 <p>Any text!</p>
               </div>
             </XBlock>
+            <XBlock width={1}>
+              <div className="card" style={{height: '300px'}}>
+                <h1>Wider card 1</h1>
+                <p>Any text!</p>
+              </div>
+            </XBlock>
+            <XBlock width={1}>
+              <div className="card" style={{height: '300px'}}>
+                <h1>Wider card 2</h1>
+                <p>Any text!</p>
+              </div>
+            </XBlock>
+            <XBlock width={1}>
+              <div className="card" style={{height: '300px'}}>
+                <h1>Wider card 3</h1>
+                <p>Any text!</p>
+              </div>
+            </XBlock>
             <XBlock width={2}>
-              <div className="card">
-                <h1>Wider card</h1>
+              <div className="card" style={{height: '300px'}}>
+                <h1>Wider card 4</h1>
                 <p>Any text!</p>
               </div>
             </XBlock>
